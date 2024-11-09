@@ -1,0 +1,1 @@
+playerctl position $(echo "$(playerctl position) + 10" | bc) 

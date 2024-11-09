@@ -1,0 +1,5 @@
+alias pac='sudo pacman -S '
+alias cdscripts='cd ~/.local/share/Scripts'
+alias script='cdscripts && '
+alias addsearch='script ./dmenu_add_to_search.sh'
+alias server='ssh root@192.168.86.126'
