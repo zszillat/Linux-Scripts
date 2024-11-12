@@ -2,6 +2,8 @@
 
 # Define an associative array with software titles and their commands
 declare -A software=(
+    ["Google Chrome"]="google-chrome-stable"
+    ["Task Manager"]="xfce4-taskmanager"
     ["Calibre"]="calibre"
     ["VirtualBox"]="virtualbox"
     ["TesTitle"]="firefox"
