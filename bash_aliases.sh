@@ -1,3 +1,4 @@
+alias up='sudo pacman -Syu'
 alias pac='sudo pacman -S '
 alias cdscripts='cd ~/.local/share/Scripts'
 alias script='cdscripts && '
@@ -6,3 +7,5 @@ alias server='ssh root@192.168.86.126'
 alias update='sudo pacman -Syu'
 alias fixscreen='script ./screen_config.sh'
 alias hi='echo whatsup?'
+
+alias send='websocat ws://localhost:8081'
